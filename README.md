@@ -20,8 +20,8 @@ Remember, it is recommended to use [virtualenv](https://github.com/pypa/virtuale
 ### Example input
 
 ```bash
-Please, input user id: << your id here >>
-Please, input password: << your password here >>
+Please, input user id: 
+Please, input password: 
 ```
 
 ### Example output
