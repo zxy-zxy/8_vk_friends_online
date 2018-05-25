@@ -1,16 +1,37 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+A python script that lists authorized person's friends in online status in social network [VK.com](http://vk.com/)
 
-# How to Install
+## Requirements
+Python 3 should be already installed.
+ Dependencies:
+ 
+1. [VK.com API](http://vk.readthedocs.io)
 
-Python 3 should be already installed. Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
 
+Then use pip (or pip3 if there is a conflict with old Python 2 setup) to install dependencies:
 ```bash
-pip install -r requirements.txt # alternatively try pip3
+pip install -r requirements.txt
 ```
 
-Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+Remember, it is recommended to use [virtualenv](https://github.com/pypa/virtualenv/) for better isolation.
+
+
+### Example input
+
+```bash
+Please, input user id: << your id here >>
+Please, input password: << your password here >>
+```
+
+### Example output
+
+```bash
+Steven Gerrard
+Tim Cook
+Elon Musk
+Gabriel Batistuta
+```
 
 # Project Goals
 
